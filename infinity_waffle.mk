@@ -30,6 +30,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemDevice=OP595DL1 \
     SystemName=CPH2573
 
+# Boot animation
+scr_resolution := 1440
+TARGET_SCREEN_HEIGHT := 3120
+TARGET_SCREEN_WIDTH := 1440
+
 # Maintainer Name
 INFINITY_MAINTAINER := "Jezzay097"
 
